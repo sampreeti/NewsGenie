@@ -5,7 +5,8 @@
 
 ---
 
-## 💡 Features
+
+## 💡 Core Features
 ________________________________________
 - **Web Search Integration**: Uses Serper.dev to fetch the latest real-time news data from the web.
 - **LLM Orchestration**: Streamlined reasoning with OpenAI GPT-4o-mini via LangGraph workflows.
@@ -15,6 +16,7 @@ ________________________________________
 - **Session Persistence**: In-chat prompt templates with state-aware query routing.
 
 ---
+
 
 ## 🛠️ Tech Stack
 ________________________________________
@@ -53,8 +55,8 @@ streamlit run NewsGenieChatBot.py
 
 🔄 LangGraph Workflow invokation and Graph Visualization
 ________________________________________
-• **build_workflow()**
-• **visualize_workflow()**
+• build_workflow()
+• visualize_workflow()
 
 
 👩‍💻 Author
