@@ -37,7 +37,11 @@ ________________________________________
 
 🖥️ Getting Started
 ________________________________________
-pip install streamlit langchain langgraph openai serper
+pip install streamlit
+pip install langchain
+pip install langgraph
+pip install openai
+
 streamlit run NewsGenieChatBot.py
 
 
