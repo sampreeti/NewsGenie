@@ -1,6 +1,7 @@
 🗞️ NewsGenie: AI-Powered Real-Time News Assistant
-	NewsGenie is a stateful, LLM-powered, multimodal news assistant designed to deliver real-time, topic-specific news 	insights by orchestrating an intelligent search-to-summarize pipeline using LangGraph + LangChain, integrated with 	OpenAI GPT-4o-mini and live search APIs like Serper.dev.
-	Built with a clean, interactive UI via Streamlit, this system transforms your queries into real-time insights 	through a dynamic and inspectable computation graph.
+	NewsGenie is a stateful, LLM-powered, multimodal news assistant designed to deliver real-time, topic-specific news insights by orchestrating an intelligent 		search-to-summarize pipeline using LangGraph + LangChain, integrated with OpenAI GPT-4o-mini and live search APIs like Serper.dev.
+	Built with a clean, interactive UI via Streamlit, this system transforms your queries into real-time insights 	through a dynamic and inspectable computation 		graph.
+
 
 💡 Features
 ________________________________________
@@ -14,7 +15,7 @@ ________________________________________
 
 🛠️ Tech Stack
 ________________________________________
-Layer	Tech
+Layer	                Tech
 Frontend		Streamlit
 LLM Orchestration	LangGraph, LangChain Core
 LLM Model		gpt-4o-mini via OpenAI API
@@ -32,3 +33,26 @@ ________________________________________
 ├── workflow_NewsG.py           	# Core LangGraph workflow definition
 ├── README.md                   	# You're here!
 
+
+
+🖥️ Getting Started
+________________________________________
+pip install streamlit langchain langgraph openai serper
+streamlit run NewsGenieChatBot.py
+
+
+🔄 LangGraph Workflow invokation and Graph Visualization
+________________________________________
+build_workflow()
+visualize_workflow()
+
+
+👩‍💻 Author
+________________________________________
+Sampreeti Alam
+LangChain | LLM Workflows | AI for Real-Time Insights
+
+
+📝 License
+________________________________________
+MIT License – free to use, extend, and commercialize with attribution.
