@@ -1,9 +1,11 @@
-🗞️ NewsGenie: AI-Powered Real-Time News Assistant
-	NewsGenie is a stateful, LLM-powered, multimodal news assistant designed to deliver real-time, topic-specific news insights by orchestrating an intelligent 		search-to-summarize pipeline using LangGraph + LangChain, integrated with OpenAI GPT-4o-mini and live search APIs like Serper.dev.
-	Built with a clean, interactive UI via Streamlit, this system transforms your queries into real-time insights 	through a dynamic and inspectable computation 		graph.
+🗞️ README.md
+---------------------------------------------------------------------
+# 🧾 NewsGenie: AI-Powered Real-Time News Assistant
+	**NewsGenie** is a stateful, LLM-powered, multimodal news assistant designed to deliver real-time, topic-specific news insights by orchestrating an intelligent 		search-to-summarize pipeline using LangGraph + LangChain, integrated with OpenAI GPT-4o-mini and live search APIs like Serper.dev.
+		Built with a clean, interactive UI via Streamlit, this system transforms your queries into real-time insights 	through a dynamic and inspectable 			computation graph.
 
 
-💡 Features
+## 💡 Features
 ________________________________________
 • Web Search Integration: Uses Serper.dev to fetch the latest real-time news data from the web.
 • LLM Orchestration: Streamlined reasoning with OpenAI GPT-4o-mini via LangGraph workflows.
@@ -13,18 +15,18 @@ ________________________________________
 • Session Persistence: In-chat prompt templates with state-aware query routing.
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 ________________________________________
-Layer	                Tech
-Frontend		Streamlit
-LLM Orchestration	LangGraph, LangChain Core
-LLM Model		gpt-4o-mini via OpenAI API
-Search API		Serper.dev (Google Search wrapper)
+Layer	                Tech/Tool
+Frontend		[Streamlit](https://streamlit.io)  
+LLM Orchestration	[LangGraph](https://www.langchain.com/langgraph/), [LangChain Core](https://python.langchain.com/api_reference/core/index.html)
+LLM Model		[OpenAI GPT-4o-mini](https://platform.openai.com/docs/models/gpt-4o-mini) via OpenAI API
+Search API		[Serper](Serper.dev) (Google Search wrapper)
 Prompting		PromptTemplate, ChatPromptTemplate
 
 	
 
-📁 Project Structure
+## 📁 Project Structure
 ________________________________________
 📦 NewsGenie/
 ├── NewsGenieChatBot.py         	# Streamlit front-end and app logic
@@ -35,7 +37,7 @@ ________________________________________
 
 
 
-🖥️ Getting Started
+## 🖥️ Getting Started
 ________________________________________
 pip install streamlit
 pip install langchain
@@ -45,18 +47,18 @@ pip install openai
 streamlit run NewsGenieChatBot.py
 
 
-🔄 LangGraph Workflow invokation and Graph Visualization
+## 🔄 LangGraph Workflow invokation and Graph Visualization
 ________________________________________
 build_workflow()
 visualize_workflow()
 
 
-👩‍💻 Author
+## 👩‍💻 Author
 ________________________________________
 Sampreeti Alam
 LangChain | LLM Workflows | AI for Real-Time Insights
 
 
-📝 License
+## 📝 License
 ________________________________________
 MIT License – free to use, extend, and commercialize with attribution.
